@@ -10,11 +10,16 @@
 7. Run ```python manage.py runserver```
 
 
-# How to Load data from xyz_sales_data.csv File.
+## How to Load data from xyz_sales_data.csv File.
 ```
 python manage.py runscript seeders.load_sales;
 ```
 Or 
 ```
 bash scripts/dataload.sh
+```
+
+## swagger URL
+```
+http://127.0.0.1:8000/swagger/
 ```
