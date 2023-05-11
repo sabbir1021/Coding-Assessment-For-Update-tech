@@ -1,0 +1,9 @@
+Django==4.2
+psycopg2_binary==2.9.6
+djangorestframework==3.14.0
+django_cors_headers==3.14.0
+PyJWT==2.6.0
+django_debug_toolbar==4.0.0
+django_extensions==3.2.1
+drf_yasg==1.21.5
+xhtml2pdf==0.2.11
