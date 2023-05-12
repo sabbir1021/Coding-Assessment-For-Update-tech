@@ -23,6 +23,7 @@ class SaleUpdateView(UpdateAPIView):
     permission_classes = (AllowAny,)
     serializer_class = SalesSerializer
     queryset = Sales.objects.all()
+    http_method_names = ['patch']
 
 
 class ReportAPIView(APIView):
