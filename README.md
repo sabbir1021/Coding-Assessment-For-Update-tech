@@ -27,3 +27,5 @@ http://127.0.0.1:8000/swagger/
 ## Report
 
 ![image](https://github.com/sabbir1021/Coding-Assessment-For-Update-tech/assets/38248492/7a48c190-5b1e-424b-aaa1-fd416bcb4010)
+
+![image](https://github.com/sabbir1021/Coding-Assessment-For-Update-tech/assets/38248492/605f5c8c-d49f-4f24-b37e-0215b9e4361c)
