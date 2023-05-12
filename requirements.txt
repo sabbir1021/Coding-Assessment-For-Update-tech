@@ -7,3 +7,4 @@ django_debug_toolbar==4.0.0
 django_extensions==3.2.1
 drf_yasg==1.21.5
 xhtml2pdf==0.2.11
+django_cors_headers==3.12.0
