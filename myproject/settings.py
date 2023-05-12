@@ -31,9 +31,9 @@ INSTALLED_APPS = [
     # Apps
     'accounts',
     "sales",
-    'rest_framework',
 
     # 3rd Party
+    'rest_framework',
     'django_extensions',
     "drf_yasg",
     "debug_toolbar",
@@ -67,7 +67,7 @@ AUTH_USER_MODEL = "accounts.User"
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates'],
+        'DIRS': [os.path.join(BASE_DIR, "templates")],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -104,16 +104,6 @@ DATABASES = {
     }
 }
 
-# DATABASES = {
-#     "default": {
-#         "ENGINE": "django.db.backends.postgresql_psycopg2",
-#         "NAME": 'update_tech',
-#         "USER": 'sabbir1021',
-#         "PASSWORD": 'sabbir1021',
-#         "HOST": 'localhost',
-#         "PORT": 5432,
-#     }
-# }
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
