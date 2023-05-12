@@ -24,3 +24,6 @@ bash scripts/dataload.sh
 http://127.0.0.1:8000/swagger/
 ```
 
+## Report
+
+![image](https://github.com/sabbir1021/Coding-Assessment-For-Update-tech/assets/38248492/7a48c190-5b1e-424b-aaa1-fd416bcb4010)
